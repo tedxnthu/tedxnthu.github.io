@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>2016TEDxNTHU</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+    <!-- webfont -->
+    <link rel="stylesheet" href="css/notosanstc.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <!-- scroll -->
+    <script src="js/anchor.js"></script>
+
+    <!-- fancyBox-->
+    <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <!-- Thumbnail helper -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    $(document).ready(function(){
+        $(window).bind('scroll', function() {
+            var navHeight = $( window ).height() - 62;
+            if ($(window).scrollTop() > navHeight) {
+                $('nav').addClass('fixed');
+            }
+            else {
+                $('nav').removeClass('fixed');
+            }
+        });
+    });
+
+    $(document).ready(function(){
+    $('.fancybox-thumbs').fancybox({
+        prevEffect : 'none',
+        nextEffect : 'none',
+
+        closeBtn  : false,
+        arrows    : false,
+        nextClick : true,
+
+        helpers : {
+            thumbs : {
+                width  : 50,
+                height : 50
+            },
+            overlay: {
+              locked: false
+            }
+        }
+    });
+    });
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#annual">年會介紹</a></li>
+            <li><a href="#speaker">講者介紹</a></li>
+            <li><a href="#process">活動流程</a></li>
+            <li><a href="#location">活動地點</a></li>
+            <li><a href="#team">策展團隊</a></li>
+            <li><a href="#sponsor">贊助廠商</a></li>
+        </ul>
+    </nav>
+    <div id="wrapper">
+        <section id="main" class="sec">
+            <div class="tedxnthu"><img src="images/tedxnthu.png" alt=""></div>
+            <div class="main_logo">
+                <img class="main_core" src="images/core_core_red_left.png" alt="">
+                <img class="main_date" src="images/core_date_red_left.png" alt="">
+            </div>
+            <div class="main_elements">
+                <img class="main_element" src="images/core_element_1.png" width="55px" height="55px" alt="">
+                <img class="main_element" src="images/core_element_2.png" width="62px" height="62px" alt="">
+                <img class="main_element" src="images/core_element_3.png" width="68px" height="68px" alt="">
+                <img class="main_element" src="images/core_element_4.png" width="68px" height="74px" alt="">
+                <img class="main_element" src="images/core_element_5.png" width="68px" height="74px" alt="">
+                <img class="main_element" src="images/core_element_6.png" width="59px" height="93px" alt="">
+            </div>
+        </section>
+        <section id="annual" class="sec">
+            <div class="sec_logo"><img src="images/annual_logo.png" alt="" width="212px" height="212px" /><h1>年會介紹</h1></div>
+            <div class="ted_intro">
+            <p>
+                TED是一個致力於「分享ideas」的非營利組織，通常以18分鐘內強而有力的短講呈現。 TED組織設立「TEDx」計畫，幫助社群、個人或組織能夠舉辦各地大會，分享與連結ideas。 TEDxNTHU則透過TED官方授權，於2013年成立並加入TEDx行列，期望讓更多可貴的ideas能被匯聚、 看見、分享，更期望觀眾未來運用所得創造價值、回饋社會。
+            </p>
+            </div>
+        </section>
+        <section id="annual2" class="sec">
+            <div class="annual2_banner">
+                <div class="annual2_logo"><img src="images/core_core_white.png" alt="" /></div>
+                <div class="annual2_elements">
+                    <img class="annual2_element" src="images/core_elements_1.png" alt="" />
+                    <img class="annual2_element" src="images/core_elements_2.png" alt="" />
+                </div>
+            </div>
+            <div class="annual_intro">
+            <p>
+                TEDxNTHU2015年會以「實踐」為主軸，「初‧練」為主題，展開一場匯聚動能的盛大聚會。「初‧練」── 初念於心、勤練不輟、起身實踐。為實現理想實踐中途難免踉蹌， 但我們相信理想之深而不忘初衷的堅持，會支持不斷練習的毅力，終能實踐藍圖、成就更好的自己、為社會留下美好軌跡。
+            </p>
+            </div>
+        </section>
+        <section id="speaker" class="sec">
+            <div class="sec_logo"><img src="images/speaker_logo.png" alt="" /><h1>講者介紹</h1></div>
+            <div class="row">
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="4_b.jpg"><img src="4_s.jpg" alt="" /></a></div>
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="3_b.jpg"><img src="3_s.jpg" alt="" /></a></div>
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="2_b.jpg"><img src="2_s.jpg" alt="" /></a></div>
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="1_b.jpg"><img src="1_s.jpg" alt="" /></a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="4_b.jpg"><img src="4_s.jpg" alt="" /></a></div>
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="3_b.jpg"><img src="3_s.jpg" alt="" /></a></div>
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="2_b.jpg"><img src="2_s.jpg" alt="" /></a></div>
+                <div class="col-md-3"><a class="fancybox-thumbs" data-fancybox-group="thumb" href="1_b.jpg"><img src="1_s.jpg" alt="" /></a></div>
+            </div>
+        </section>
+        <section id="process" class="sec">
+            <div class="sec_logo"><img src="images/process_logo.png" alt="" /><h1>活動流程</h1></div>
+        </section>
+        <section id="location" class="sec">
+            <div class="sec_logo"><img src="images/location_logo.png" alt="" /><h1>活動地點</h1></div>
+        </section>
+        <section id="team" class="sec">
+            <div class="sec_logo"><img src="images/team_logo.png" alt="" /><h1>策展團隊</h1></div>
+        </section>
+        <section id="sponsor" class="sec">
+            <div class="sec_logo"><img src="images/sponsor_logo.png" alt="" /><h1>贊助廠商</h1></div>
+        </section>
+    </div>
+
+</body>
+</html>

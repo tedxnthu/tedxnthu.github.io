@@ -58,17 +58,15 @@
         font-family: 'Noto Sans TC', sans-serif;
     }
 
+    #nav {
+        z-index: 999;
+    }
+
     nav {
         width: 100%;
-        height: 62px;
+        height: 66px;
         position: absolute;
         bottom: 0;
-        background-color: white;
-        border-width: 3px;
-        border-style: solid;
-        border-color: red;
-        text-align:center;
-        padding: 18px;
         z-index: 999;
     }
 
@@ -77,53 +75,43 @@
             top: 0;
         }
 
-            nav ul li {
-                display: inline;
-            }
-
-                nav ul li a {
-                    font-size: 20px;
-                    font-weight: bold;
-                    padding: 36px;
-                }
-
-                nav ul li a:link, a:visited, a:active {
-                    color: black;
-                    text-decoration: none;
-                }
-
-                nav ul li a:hover {
-                    color: red;
-                    text-decoration: none;
-                }
-
     #wrapper {
         height: 100%;
     }
 
-    .sec {
-        height: 100%;
-    }
-
-    .sec_logo {
-        text-align: center;
-        font-weight: bold;
-    }
-
-        .sec_logo img{
-            display: block;
-            margin: auto;
-            padding-top: 63px;
-        }
-
     #main {
         width: 100%;
+        height: 100%;
         background-color: white;
-        background-image: url("../images/core_swirl_red.png");
+        /*background-image: url("../images/core_swirl_red.png");
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: right top;*/
     }
+
+        #main.main_small {
+            height: 600px;
+        }
+
+        #main .main_bg {
+            position: absolute;
+            top: 70%;
+            left: 90%;
+            width: 1000px;
+            height: 1000px;
+        }
+
+            #main .main_bg img {
+                width: 100%;
+                margin:-50% 0 0 -50%;
+                -webkit-animation:spin 6s linear infinite;
+                -moz-animation:spin 6s linear infinite;
+                animation:spin 6s linear infinite;
+            }
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
         #main .tedxnthu {
             position: absolute;
@@ -139,34 +127,30 @@
         }
 
             #main .main_logo .main_core {
+                margin-bottom: 30px;
                 position: relative;
                 display: block;
             }
 
             #main .main_logo .main_date {
+                margin-bottom: 30px;
                 position: relative;
                 display: block;
-                left: -22px;
             }
 
-        #main .main_elements {
-            width: 500px;
-            position: absolute;
-            top: 65%;
-            left: 20%;
-            display: flex;
-            justify-content: space-around;
-            align-items:center;
-        }
+            #main .main_logo .main_accupass {
+                position: relative;
+                display: block;
+            }
 
     #annual {
-        height: 500px;
         background-color: white;
     }
 
         #annual h1{
             color: red;
             font-size: 2em;
+
         }
 
         #annual .ted_intro {
@@ -176,7 +160,6 @@
         }
 
     #annual2 {
-        height: 500px;
         background-color: red;
         position: relative;
     }
@@ -212,7 +195,6 @@
         }
 
     #speaker {
-        height: 800px;
         background-color: white;
     }
 
@@ -261,11 +243,14 @@
         }
 
     #process {
-        background-color: red;
+        background-attachment: fixed;
+        background-image: url(../images/bg_stripe.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
         #process h1{
-            color: white;
+            color: red;
             font-size: 2em;
         }
 
@@ -278,12 +263,39 @@
             font-size: 2em;
         }
 
+        #location h2{
+            color: red;
+            font-size: 1.5em;
+            line-height: 1.5em;
+        }
+
+        #location ol {
+            list-style-type: decimal;
+            padding-left: 1.5em;
+        }
+
+        #location ul {
+            list-style-type: disc;
+            padding-left: 1.5em;
+        }
+
+        #location p {
+            line-height: 1.5em;
+        }
+
+        #location li {
+            line-height: 1.5em;
+        }
+
     #team {
-        background-color: red;
+        background-attachment: fixed;
+        background-image: url(../images/bg_stripe.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
         #team h1{
-            color: white;
+            color: red;
             font-size: 2em;
         }
 

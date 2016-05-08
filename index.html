@@ -37,8 +37,8 @@
     <script>
     $(function() {
         $(window).bind('scroll', function() {
-            var navHeight = $(window).height() - 66;
-            if ($(window).scrollTop() > navHeight) {
+            var navHeight = $(window).height();
+            if ($(window).scrollTop() > navHeight - 66) {
                 $('nav').addClass('fixed');
             }
             else {
@@ -65,13 +65,13 @@
     </script>
 </head>
 <body>
-    <div class="w3-top w3-hide-medium w3-hide-large">
+    <div class="w3-top w3-hide-large">
         <ul class="w3-navbar w3-red w3-large">
-            <li class="w3-hide-medium w3-hide-large w3-red w3-opennav w3-right">
-              <a href="javascript:void(0);" onclick="onClickNavMenu()">&#9776;</a>
+            <li class="w3-hide-large w3-red w3-opennav w3-right">
+              <a class="w3-padding-hor-24" href="javascript:void(0);" onclick="onClickNavMenu()">&#9776;</a>
             </li>
         </ul>
-        <div id="nav" class="w3-hide w3-hide-large w3-hide-medium w3-white">
+        <div id="nav" class="w3-hide w3-hide-large w3-white">
           <ul class="w3-navbar w3-left-align w3-large w3-red">
               <li><a class="w3-padding-hor-12 w3-hover-white" onclick="onClickNavMenu()" href="#annual">年會介紹</a></li>
               <li><a class="w3-padding-hor-12 w3-hover-white" onclick="onClickNavMenu()" href="#speaker">講者介紹</a></li>
@@ -82,37 +82,39 @@
           </ul>
         </div>
     </div>
-    <nav class="w3-hide-small">
+    <nav class="w3-hide-small w3-hide-medium">
         <ul class="w3-navbar w3-red w3-large">
-            <li class="w3-hide-small w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#sponsor">贊助夥伴</a></li>
-            <li class="w3-hide-small w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#team">策展團隊</a></li>
-            <li class="w3-hide-small w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#location">活動地點</a></li>
-            <li class="w3-hide-small w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#process">活動流程</a></li>
-            <li class="w3-hide-small w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#speaker">講者介紹</a></li>
-            <li class="w3-hide-small w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#annual">年會介紹</a></li>
+            <li class="w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#sponsor">贊助夥伴</a></li>
+            <li class="w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#team">策展團隊</a></li>
+            <li class="w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#location">活動地點</a></li>
+            <li class="w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#process">活動流程</a></li>
+            <li class="w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#speaker">講者介紹</a></li>
+            <li class="w3-right"><a class="w3-padding-hor-24 w3-hover-white" href="#annual">年會介紹</a></li>
         </ul>
     </nav>
 
     <div id="wrapper">
-        <section id="main" class="w3-container main_small w3-hide-medium w3-hide-large">
-            <div class="tedxnthu"><img src="images/tedxnthu.png" alt="NTHUxTED"></div>
+        <section id="main" class="w3-container main_small w3-hide-large">
+            <div class="tedxnthu_lm_bg"></div>
+            <div class="tedxnthu"><img src="images/tedxnthu.png" alt="NTHUxTED" weight="94" height="22"></div>
             <div class="main_logo">
                 <img class="main_core" src="images/core_core_red_left.png">
                 <img class="main_date" src="images/core_date_red_left.png">
-                <img class="main_accupass" src="images/accupass.png">
+                <a href="#"><div class="main_accupass"></div></a>
             </div>
         </section>
-        <section id="main" class="w3-container w3-hide-small">
+        <section id="main" class="w3-container w3-hide-medium w3-hide-small">
             <div class="main_bg"><img src="images/core_swirl_red.png" alt="" /></div>
-            <div class="tedxnthu"><img src="images/tedxnthu.png" alt="NTHUxTED"></div>
+            <div class="tedxnthu_lm_bg"></div>
+            <div class="tedxnthu"><img src="images/tedxnthu.png" alt="NTHUxTED" weight="94" height="22"></div>
             <div class="main_logo">
                 <img class="main_core" src="images/core_core_red_left.png">
                 <img class="main_date" src="images/core_date_red_left.png">
-                <img class="main_accupass" src="images/accupass.png">
+                <a href="#"><div class="main_accupass"></div></a>
             </div>
         </section>
         <section id="annual" class="w3-display-container w3-padding-hor-32">
-            <div class="w3-center"><img src="images/annual_logo.png" alt="" width="212px" height="212px" /><h1>年會介紹</h1></div>
+            <div class="w3-center"><img src="images/annual_logo.png" alt="" /><h1>年會介紹</h1></div>
             <div class="w3-padding-hor-32 w3-row w3-hide-medium w3-hide-small">
                 <div class="w3-center w3-col l3"><br></div>
                 <div class="w3-rightbar w3-border-red w3-center w3-col l2"><a href="http://www.ted.com/" target="_blank"><img src="images/ted.png" alt="" /></a></div>
@@ -135,20 +137,21 @@
                 </div>
                 <div class="w3-center w3-col s1 m1 l3"><br></div>
             </div>
-        </section>
-        <section id="annual2" class="w3-hide-small w3-container w3-padding-hor-32">
-            <div class="annual2_banner">
-                <div class="annual2_logo"><img src="images/core_core_white.png" alt="" /></div>
-                <div class="annual2_elements">
-                    <img class="annual2_element" src="images/core_elements_1.png" alt="" />
-                    <img class="annual2_element" src="images/core_elements_2.png" alt="" />
+
+            <div class="w3-center w3-padding-hor-32"><img src="images/core_title_red.png" alt="" /></div>
+
+            <div class="w3-padding-hor-16 w3-row">
+                <div class="w3-center w3-col s1 m1 l3"><br></div>
+                <div class="w3-col s10 m10 l6">
+                <p>
+                    TEDxNTHU 2016年會以「core」為主題，「 釐清自己 」為主軸。透過釐清自己的角色與定位,讓我們找到自身的核心與價值。知道自己所處的立場與狀況,並透過更清晰的眼光看見所關心的事務；釐清自身真正想完成的目標與夢想，而更有效率地尋找真正所需的資源。期望未來在面對各式各樣的資訊及想法時，能以自我的核心與價值為出發點,做出最切合初心的選擇。
+                </p>
                 </div>
+                <div class="w3-center w3-col s1 m1 l3"><br></div>
             </div>
-            <div class="annual_intro">
-            <p>
-                TEDxNTHU2015年會以「實踐」為主軸，「初‧練」為主題，展開一場匯聚動能的盛大聚會。「初‧練」── 初念於心、勤練不輟、起身實踐。為實現理想實踐中途難免踉蹌， 但我們相信理想之深而不忘初衷的堅持，會支持不斷練習的毅力，終能實踐藍圖、成就更好的自己、為社會留下美好軌跡。
-            </p>
-            </div>
+        </section>
+        <section id="annual2" class="w3-container w3-padding-hor-32">
+
         </section>
         <section id="speaker" class="w3-container w3-padding-hor-32">
             <div class="w3-center"><img src="images/speaker_logo.png" alt="" /><h1>講者介紹</h1></div>

@@ -117,7 +117,11 @@
             z-index: 1001;
         }
 
-        #main .tedxnthu_lm_bg {
+        #main .tedxnthu_sm {
+            left: calc(50% - 47px);
+        }
+
+        #main .tedxnthu_bg {
             left: 16%;
             width: 200px;
             height: 66px;
@@ -127,6 +131,10 @@
             -webkit-transform: skewX(-20deg); /* Safari */
             transform: skewX(-20deg); /* Standard syntax */
             z-index: 1000;
+        }
+
+        #main .tedxnthu_bg_sm {
+            left: calc((100% - 200px) / 2);
         }
 
         #main .tedxnthu_fixed {
@@ -175,6 +183,10 @@
 
         #annual p {
             line-height: 1.5em;
+        }
+
+        #annual .ted3 img {
+            max-width: 100%;
         }
 
     #annual2 {
@@ -276,6 +288,10 @@
 
 .avatar {
     position: relative;
+}
+
+.avatar p {
+    line-height: 1.5em;
 }
 
 .avatar .avatar_intro {

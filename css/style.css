@@ -85,8 +85,12 @@
         background-color: white;
     }
 
-        #main.main_small {
-            height: 600px;
+        #main .main_sm {
+            height: 100%;
+        }
+
+        #main .main_l {
+            height: 100%;
         }
 
         #main .main_bg {
@@ -148,19 +152,27 @@
             left: 20%;
         }
 
-            #main .main_logo .main_core {
+        #main .main_logo_sm {
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            height: 100%;
+        }
+
+            #main .main_core {
                 margin-bottom: 30px;
                 position: relative;
                 display: block;
             }
 
-            #main .main_logo .main_date {
+            #main .main_date {
                 margin-bottom: 30px;
                 position: relative;
                 display: block;
             }
 
-            #main .main_logo .main_accupass {
+            #main .main_accupass {
                 width: 223px;
                 height: 33px;
                 background-image: url('../images/accupass.png');
@@ -168,7 +180,7 @@
                 display: block;
             }
 
-            #main .main_logo .main_accupass:hover {
+            #main .main_accupass:hover {
                 background-image: url('../images/accupass_hover.jpg');
             }
 

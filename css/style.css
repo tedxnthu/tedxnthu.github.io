@@ -185,9 +185,20 @@
             line-height: 1.5em;
         }
 
-        #annual .ted3 img {
-            max-width: 100%;
+        #annual .ted3 {
+            height: 116px;
         }
+
+            #annual .ted3 div {
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                height: 100%;
+            }
+
+            #annual .ted3 img {
+                max-width: 100%;
+            }
 
     #annual2 {
         height: 300px;
@@ -285,6 +296,13 @@
             font-size: 2em;
         }
 
+    #sponsor .sponsor div {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        height: 109px;
+    }
+
 
 .avatar {
     position: relative;
@@ -316,6 +334,13 @@
     width: 100%;
     border: 2px solid red;
     background-color: white;
+    animation-name: fadein;
+    animation-duration: 0.3s;
+}
+
+@keyframes fadein {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .avatar:hover .avatar_intro_l {

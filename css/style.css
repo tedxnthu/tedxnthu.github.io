@@ -316,6 +316,10 @@
             font-size: 2em;
         }
 
+        #team .department {
+            display:none;
+        }
+
     #sponsor {
         background-color: white;
     }
@@ -350,6 +354,7 @@
     }
 
     .avatar .avatar_intro p {
+        text-align: left;
         margin-top: 1em;
         font-size: 0.9em;
         line-height: 1.5em;

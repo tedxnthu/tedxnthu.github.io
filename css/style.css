@@ -320,6 +320,15 @@
             display:none;
         }
 
+        #team .personal {
+
+        }
+
+            #team .personal img{
+                padding: 10px;
+                height: 120px;
+            }
+
     #sponsor {
         background-color: white;
     }
@@ -337,17 +346,17 @@
     }
 
 
-.avatar {
-    position: relative;
-}
+    .avatar {
+        position: relative;
+    }
 
-.avatar p {
-    line-height: 1.5em;
-}
+    .avatar p {
+        line-height: 1.5em;
+    }
 
-.avatar .avatar_intro {
-    padding: 1em;
-}
+    .avatar .avatar_intro {
+        padding: 1em;
+    }
 
     .avatar .avatar_intro h2 {
         line-height: 1.5em;
@@ -360,37 +369,37 @@
         line-height: 1.5em;
     }
 
-.avatar .avatar_intro_l {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border: 2px solid red;
-    background-color: white;
-    animation-name: fadein;
-    animation-duration: 0.3s;
-}
+    .avatar .avatar_intro_l {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border: 2px solid red;
+        background-color: white;
+        animation-name: fadein;
+        animation-duration: 0.3s;
+    }
 
-@keyframes fadein {
-    0%   {opacity: 0;}
-    100% {opacity: 1;}
-}
+    @keyframes fadein {
+        0%   {opacity: 0;}
+        100% {opacity: 1;}
+    }
 
-.avatar:hover .avatar_intro_l {
-    display: block;
-}
+    .avatar:hover .avatar_intro_l {
+        display: block;
+    }
 
-.avatar .avatar_img {
-    margin: auto;
-    max-width: 150px;
-    border-radius: 50%;
-}
+    .avatar .avatar_img {
+        margin: auto;
+        max-width: 150px;
+        border-radius: 50%;
+    }
 
-.avatar .avatar_img_l {
-    display: block;
-}
+    .avatar .avatar_img_l {
+        display: block;
+    }
 
-.avatar:hover .avatar_img_l {
-    opacity: 0;
-}
+    .avatar:hover .avatar_img_l {
+        opacity: 0;
+    }

@@ -86,16 +86,16 @@
 }
 @media (min-width:768px) {
 	.containerx {
-		width:750px
+		width:700px
 	}
 }
 @media (min-width:992px) {
 	.containerx {
-		width:970px
+		width:920px
 	}
 }
 @media (min-width:1200px) {
 	.containerx {
-		width:1170px
+		width:1120px
 	}
 }

@@ -1,3 +1,5 @@
+
+
 .bio{
 	color:red;
 }
@@ -73,4 +75,27 @@
 }
 .sp_pic{
 	padding:5px;
+}
+}
+
+.containerx {
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+@media (min-width:768px) {
+	.containerx {
+		width:650px
+	}
+}
+@media (min-width:992px) {
+	.containerx {
+		width:870px
+	}
+}
+@media (min-width:1200px) {
+	.containerx {
+		width:1070px
+	}
 }

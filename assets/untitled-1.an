@@ -1,0 +1,72 @@
+
+{
+
+	"HTMLFileName":"Untitled-1.html",
+	"PosterCapturePos":"500",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"PubDPS":"true",
+	"PosterImagePath":"images/Poster.png",
+	"expanded:images/outlier_rgb-03.png":"nil",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/outlier_webuse-12.svg":"nil",
+	"expanded:images/Poster.png":"nil",
+	"PubWeb":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/outlier%E6%A8%99%E6%BA%96%E5%AD%97_rgb-03.svg":"nil",
+	"symbol_stage":{
+		"dummyStageParentWidth":"550px",
+		"dummyStageParentHeight":"400px",
+		"element_${_outlier_rgb-032}":{
+			"timelineColor2":"0x1aa38f",
+			"invisible":"true",
+			"timelineColor":"0x00bda4",
+			"animationEnabled":"false",
+			"timelineColor3":"0x2a6a61"},
+		"defaultStageParentHeight":"400px",
+		"element_${_outlier_webuse-12}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"invisible":"false",
+			"timelineColor":"0x00a096"},
+		"element_${_outlier_rgb-03}":{
+			"timelineColor2":"0x81aa62",
+			"invisible":"true",
+			"timelineColor":"0x91c767",
+			"animationEnabled":"false",
+			"timelineColor3":"0x5b6c4d"},
+		"element_${_Rectangle}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"550px"},
+	"PreloadAudio":"auto",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"25",
+	"pixelsPerMs":"0.2",
+	"PubStaticHTMLContent":"true",
+	"stage-Default Timeline_mark_ms":"-1",
+	"nextElementColorIndex":"6",
+	"stage-Default Timeline_playhead_ms":"1000",
+	"TransitionIdCounter":"16",
+	"viewStartY":"0",
+	"usedBOM":"false"}

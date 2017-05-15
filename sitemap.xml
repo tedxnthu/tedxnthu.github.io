@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://www.tedxnthu.com/index.html</loc>
+    <lastmod>2017-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.tedxnthu.com/images/webuse_title-15.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.tedxnthu.com/images/sponsor1.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.tedxnthu.com/images/sponsor2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.tedxnthu.com/images/buy_tickets_black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.tedxnthu.com/images/facebook-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.tedxnthu.com/images/webuse_title-11.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.tedxnthu.com/assets/untitled-1.an</loc>
+    <lastmod>2017-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.tedxnthu.com/assets/untitled-2.an</loc>
+    <lastmod>2017-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

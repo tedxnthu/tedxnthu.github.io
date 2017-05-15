@@ -1,0 +1,76 @@
+.bio{
+	color:red;
+}
+
+@media only screen and (max-width: 768px) {
+	#overlay_lightbox {
+		width: 100%;
+		min-height: 400px;
+		color :white;
+		position: fixed;
+ 	    -moz-border-radius: 15px;
+		border-radius: 15px;
+		z-index: 999;
+	    -webkit-transition: opacity 1.5s;
+		transition: opacity 1.5s;
+		opacity: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	#speaker_pic_div{
+		float:left;
+		width:100%;
+		height:auto;
+		/*border:5px;
+		border-color:white;*/
+	}
+	#speaker_div{
+		float:left;
+		width:100%;
+	}
+
+}
+@media screen and (min-width: 768px) {
+#speaker_div{
+	float:left;
+	width:50%;
+}
+#speaker_pic_div{
+	float:right;
+	width:40%;
+	height:auto;
+	/*border:5px;
+	border-color:white;*/
+}
+#overlay_lightbox {
+	width: 650px;
+	/*height: 550px;*/
+	color :white;
+	position: fixed;
+	left: calc(50% - 340px);
+	top: calc(50% - 230px);
+ 	-moz-border-radius: 15px;
+	border-radius: 15px;
+	z-index: 999;
+	-webkit-transition: opacity 1.5s;
+	transition: opacity 1.5s;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	}
+}
+#background {
+	position:fixed;
+	height: 100%;
+	width: 100%;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-transition: opacity 0.8s;
+	transition: opacity 0.8s;
+	opacity: 0;
+	}
+#speaker_context{
+	margin:20px;
+
+}
+.sp_pic{
+	padding:5px;
+}

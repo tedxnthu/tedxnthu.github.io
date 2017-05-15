@@ -1,0 +1,132 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.tedxnthu.com" resolutions="1x" timestamp="1494483474175">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="4129652413" ref="index"/>
+    <file name="nomq_index.css" crc="272112296" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="helvetica-bold.woff" crc="287577117"/>
+    <file name="helvetica-bold.eot" crc="483485778"/>
+  </folder>
+  <folder name="assets">
+    <folder name="untitled-7">
+      <folder name="edge_includes">
+        <file name="edge.4.0.1.min.js" crc="33473900" mt="1493130881000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1493130881000"/>
+      </folder>
+      <folder name="images">
+        <file name="outlier_rgb-03.png" crc="3761779581" mt="1493130881000"/>
+        <file name="Poster.png" crc="4084055569" mt="1493130881000"/>
+        <file name="Poster2.png" crc="4172403996" mt="1493130881000"/>
+        <file name="Poster3.png" crc="3814626545" mt="1493130881000"/>
+        <file name="Poster4.png" crc="3769049918" mt="1493130881000"/>
+        <file name="Poster5.png" crc="4076251660" mt="1493130881000"/>
+        <file name="outlier_visuals_path_only_RGB（網路用）-標語紅.svg" crc="4194407097" mt="1493130881000"/>
+        <file name="outlier_visuals_path_only_RGB（網路用）-標語紅hashtag.svg" crc="4092941524" mt="1493130881000"/>
+        <file name="outlier_visuals_path_only_RGB（網路用）-標語黑_hashtag.svg" crc="4265226201" mt="1493130881000"/>
+        <file name="outlier_visuals_path_only_RGB（網路用）-靠右黑字紅點.svg" crc="466817681" mt="1493130881000"/>
+        <file name="outlier_webuse-12.svg" crc="410803081" mt="1493130881000"/>
+        <file name="outlier_webuse-13-01.svg" crc="48310772" mt="1493130881000"/>
+        <file name="outlier標準字_rgb-03.svg" crc="4287710785" mt="1493130881000"/>
+        <file name="WebUse_title-01.svg" crc="3800851159" mt="1493130881000"/>
+        <file name="WebUse_title-02.svg" crc="290207959" mt="1493130881000"/>
+        <file name="WebUse_title-03.svg" crc="4072344765" mt="1493130881000"/>
+        <file name="WebUse_title-17.svg" crc="121691820" mt="1493130881000"/>
+        <file name="WebUse_title-18.svg" crc="4225324540" mt="1493130881000"/>
+        <file name="WebUse_title-19.svg" crc="440456827" mt="1493130881000"/>
+        <file name="WebUse_title-20.svg" crc="4006245234" mt="1493130881000"/>
+      </folder>
+      <file name="Untitled-7_edge.js" crc="254464338" mt="1493130881000"/>
+      <file name="Untitled-7_edgeActions.js" crc="172360774" mt="1493130881000"/>
+      <file name="Untitled-7_edgePreload.js" crc="4137317487" mt="1493130881000"/>
+      <file name="Untitled-7.html" crc="334541646" mt="1493130881000"/>
+    </folder>
+    <folder name="untitled-2">
+      <folder name="edge_includes">
+        <file name="edge.4.0.1.min.js" crc="33473900" mt="1492857686000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1492857686000"/>
+      </folder>
+      <folder name="images">
+        <file name="outlier_rgb-03.png" crc="3761779581" mt="1492857686000"/>
+        <file name="Poster.png" crc="4084055569" mt="1492857686000"/>
+        <file name="outlier_visuals_path_only_RGB（網路用）-靠右黑字紅點.svg" crc="466817681" mt="1492857686000"/>
+        <file name="outlier_webuse-12.svg" crc="410803081" mt="1492857686000"/>
+        <file name="outlier_webuse-13-01.svg" crc="48310772" mt="1492857686000"/>
+        <file name="outlier標準字_rgb-03.svg" crc="4287710785" mt="1492857686000"/>
+        <file name="WebUse_title-01.svg" crc="3800851159" mt="1492857686000"/>
+        <file name="WebUse_title-02.svg" crc="290207959" mt="1492857686000"/>
+        <file name="WebUse_title-03.svg" crc="4072344765" mt="1492857686000"/>
+      </folder>
+      <file name="Untitled-2_edge.js" crc="266378164" mt="1492857686000"/>
+      <file name="Untitled-2_edgeActions.js" crc="366777932" mt="1492857686000"/>
+      <file name="Untitled-2_edgePreload.js" crc="397001121" mt="1492857686000"/>
+      <file name="Untitled-2.html" crc="512554856" mt="1492857686000"/>
+    </folder>
+    <file name="untitled-1.an" crc="66633804" seo="true" mt="1492695286000"/>
+    <file name="untitled-2.an" crc="192004026" seo="true" mt="1492857683000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4152223963" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="outlier標準字_rgb-03.svg" crc="3840805816" ref="index"/>
+    <file name="outlier標準字_rgb-03_poster_u3680.png" crc="3997734879" ref="index"/>
+    <file name="buy_tickets_on-u15533-fr.png" crc="3929759784" ref="index"/>
+    <file name="buy_tickets_off-u15533-r-fr.png" crc="3890255099" ref="index"/>
+    <file name="tedxnthu_white_rgb-02.svg" crc="324108737" ref="index"/>
+    <file name="tedxnthu_white_rgb-02_poster_u13939.png" crc="3762394669" ref="index"/>
+    <file name="webuse_title-15.svg" crc="4164405496" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="webuse_title-15_poster_.png" crc="231240869" ref="index"/>
+    <file name="sponsor1.gif" crc="238142323" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sponsor2.jpg" crc="3909146350" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="buy_tickets_black.png" crc="3792244068" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook-2.png" crc="485031928" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="buy_tickets_on.png" crc="483649678" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="buy_tickets_off.png" crc="273921187" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="webuse_title-11.svg" crc="147984135" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="webuse_title-11_poster_.png" crc="3892788434" ref="index"/>
+    <file name="outlier標準字_webuse-08.svg" crc="304175854" ref="index"/>
+    <file name="outlier標準字_webuse-08_poster_u6496.png" crc="3976610840" ref="index"/>
+    <file name="buy_tickets_on-u15533-fr2.png" crc="3864340942" ref="index"/>
+    <file name="buy_tickets_off-u15533-r-fr2.png" crc="432063082" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="294111584" seo="true" mt="1494483424468" redirect="true"/>
+</manifest>
